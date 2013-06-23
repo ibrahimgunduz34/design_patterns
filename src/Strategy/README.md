@@ -13,4 +13,4 @@ hesaplayıcı üzerinden gerçekleştirilmesini sağlar.
 
 **example1.php:** Sabit tutarlı kupon kullanarak indirim hesabı gerçekleştirilmesi ile ilgili örnek içerir.
 
-**example1.php:** Yüzde cinsinden orana sahip bir kupon kullanarak indirim hesabı gerçekleştirilmesi ile ilgili örnek içerir.
+**example2.php:** Yüzde cinsinden orana sahip bir kupon kullanarak indirim hesabı gerçekleştirilmesi ile ilgili örnek içerir.
