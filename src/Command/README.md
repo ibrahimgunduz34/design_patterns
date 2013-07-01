@@ -6,6 +6,6 @@ gerektiği durumlarda kullanılır.
 gösterir.
 
 ## Örnek ile ilgili açıklama:
-Örnek kod sabir tuarlı bir indirime ve belirli bir orandaki KDV ye sahip yeni bir sipariş oluşturur. Command patternine
-göre kodlanan hesaplayıcı ise siparişin indirim tutarını, kdv tutarını ve son olarak bu verilerle birlikte genel toplamı
-hesaplar ve hesaplanan sipariş objesini döner.
+Örnek kod, belirli bir net toplam, indirim kuponu ve  kdv oranına sahip yeni bir sipariş oluşturarak invoker
+(Cart\Calculator sınıfı) tarafından çağırılan komutlarla siparişe ait indirim, kdv ve genel toplam tutarlarını 
+hesaplar.
