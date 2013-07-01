@@ -5,8 +5,8 @@ Bu depo, tasarım desenlerinin gerçek dünyada kullanımı ile ilgili örnek ko
 Bir elektronik ticaret sitesinde farklı özelliğe sahip kuponların strateji tasarım 
 deseni ile nasıl hesaplanabileceğini gösteren örnek kod içerir.
 
-## Decorator:
-Bir elektronik ticaret sitesinde decorator tasarım deseni kullanarak sepet hesaplamasının
+## Command:
+Bir elektronik ticaret sitesinde command tasarım deseni kullanarak sepet hesaplamasının
 gerçekleştirilmesiyle ilgili örnek kod içerir.
 
 ## Factory Method:
