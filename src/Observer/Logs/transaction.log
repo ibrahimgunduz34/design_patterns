@@ -1,0 +1,72 @@
+[+Fri, 05 Jul 2013 16:35:40 +0300] Request:
+DATA=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CCC5Request%3E%0A++%3CType%3EAuth%3C%2FType%3E%0A++%3CTotal%3E10.00%3C%2FTotal%3E%0A++%3CNumber%3E5406675406675403%3C%2FNumber%3E%0A++%3CCvv2Val%3E000%3C%2FCvv2Val%3E%0A++%3CExpires%3E12%2F2013%3C%2FExpires%3E%0A++%3COrderId%3EORD000001373031340%3C%2FOrderId%3E%0A++%3CName%3EISBANKAPI%3C%2FName%3E%0A++%3CPassword%3EISBANK07%3C%2FPassword%3E%0A++%3CClientId%3E700100000%3C%2FClientId%3E%0A++%3CMode%3EP%3C%2FMode%3E%0A++%3CCurrency%3E949%3C%2FCurrency%3E%0A%3C%2FCC5Request%3E%0A
+
+[+Fri, 05 Jul 2013 16:35:41 +0300] Response:
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<CC5Response>
+  <OrderId>ORD000001373031340</OrderId>
+  <GroupId>ORD000001373031340</GroupId>
+  <Response>Approved</Response>
+  <AuthCode>P67962</AuthCode>
+  <HostRefNum>318600000166</HostRefNum>
+  <ProcReturnCode>00</ProcReturnCode>
+  <TransId>13186QjvH12591</TransId>
+  <ErrMsg></ErrMsg>
+  <Extra>
+    <SETTLEID>20111300</SETTLEID>
+    <TRXDATE>20130705 16:35:47</TRXDATE>
+    <ERRORCODE></ERRORCODE>
+    <HOSTDATE>0705-163547</HOSTDATE>
+    <NUMCODE>00</NUMCODE>
+  </Extra>
+</CC5Response>
+
+
+[+Fri, 05 Jul 2013 16:35:41 +0300] Request:
+DATA=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CCC5Request%3E%0A++%3CType%3EAuth%3C%2FType%3E%0A++%3CTotal%3E10.00%3C%2FTotal%3E%0A++%3CNumber%3E5406675406675403%3C%2FNumber%3E%0A++%3CCvv2Val%3E000%3C%2FCvv2Val%3E%0A++%3CExpires%3E12%2F2013%3C%2FExpires%3E%0A++%3COrderId%3EORD000001373031341%3C%2FOrderId%3E%0A++%3CName%3EISBANKAPI%3C%2FName%3E%0A++%3CPassword%3EISBANK07%3C%2FPassword%3E%0A++%3CClientId%3E700100000%3C%2FClientId%3E%0A++%3CMode%3EP%3C%2FMode%3E%0A++%3CCurrency%3E949%3C%2FCurrency%3E%0A%3C%2FCC5Request%3E%0A
+
+[+Fri, 05 Jul 2013 16:35:42 +0300] Response:
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<CC5Response>
+  <OrderId>ORD000001373031341</OrderId>
+  <GroupId>ORD000001373031341</GroupId>
+  <Response>Approved</Response>
+  <AuthCode>P13961</AuthCode>
+  <HostRefNum>318600000168</HostRefNum>
+  <ProcReturnCode>00</ProcReturnCode>
+  <TransId>13186QjxA12594</TransId>
+  <ErrMsg></ErrMsg>
+  <Extra>
+    <SETTLEID>20111300</SETTLEID>
+    <TRXDATE>20130705 16:35:48</TRXDATE>
+    <ERRORCODE></ERRORCODE>
+    <HOSTDATE>0705-163549</HOSTDATE>
+    <NUMCODE>00</NUMCODE>
+  </Extra>
+</CC5Response>
+
+
+[+Fri, 05 Jul 2013 16:35:42 +0300] Request:
+DATA=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CCC5Request%3E%0A++%3CType%3EAuth%3C%2FType%3E%0A++%3CTotal%3E10.00%3C%2FTotal%3E%0A++%3CNumber%3E5406675406675403%3C%2FNumber%3E%0A++%3CCvv2Val%3E000%3C%2FCvv2Val%3E%0A++%3CExpires%3E12%2F2013%3C%2FExpires%3E%0A++%3COrderId%3EORD000001373031342%3C%2FOrderId%3E%0A++%3CName%3EISBANKAPI%3C%2FName%3E%0A++%3CPassword%3EISBANK07%3C%2FPassword%3E%0A++%3CClientId%3E700100000%3C%2FClientId%3E%0A++%3CMode%3EP%3C%2FMode%3E%0A++%3CCurrency%3E949%3C%2FCurrency%3E%0A%3C%2FCC5Request%3E%0A
+
+[+Fri, 05 Jul 2013 16:35:43 +0300] Response:
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<CC5Response>
+  <OrderId>ORD000001373031342</OrderId>
+  <GroupId>ORD000001373031342</GroupId>
+  <Response>Approved</Response>
+  <AuthCode>P69033</AuthCode>
+  <HostRefNum>318600000170</HostRefNum>
+  <ProcReturnCode>00</ProcReturnCode>
+  <TransId>13186QjyA12597</TransId>
+  <ErrMsg></ErrMsg>
+  <Extra>
+    <SETTLEID>20111300</SETTLEID>
+    <TRXDATE>20130705 16:35:49</TRXDATE>
+    <ERRORCODE></ERRORCODE>
+    <HOSTDATE>0705-163550</HOSTDATE>
+    <NUMCODE>00</NUMCODE>
+  </Extra>
+</CC5Response>
+
+

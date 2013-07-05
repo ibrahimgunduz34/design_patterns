@@ -3,10 +3,15 @@ include('../../libs/Bootstrap.php');
 
 use \Payment\Factory;
 use \Payment\Request;
+use Event\BeforeRequestListener;
+use Event\AfterRequestListener;
 
 //creating new payment adapter instance
 $instance = Factory::createInstance('Est');
 
+//attaching listeners.
+$instance->attachEventListener($instance::EVENT_BEFORE_REQUEST, new BeforeRequestListener());
+$instance->attachEventListener($instance::EVENT_AFTER_REQUEST, new AfterRequestListener());
 //creating payment request.
 $request = new Request();
 $request->setCardNumber('5406675406675403')
