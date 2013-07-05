@@ -10,11 +10,15 @@ class Calculator
 {
     const DISCOUNT_TYPE_FIXED = 1;
     const DISCOUNT_TYPE_PERCENT = 2;
-
+    
+    /**
+     * @var \SalesRules\Calculator\CalculatorInterface
+     */
     private $_calculator;
 
     /**
      * class constructor
+     *
      * @param float $orderTotal
      * param \Coupon $coupon
      */
@@ -34,6 +38,7 @@ class Calculator
     
     /**
      * calculates discounted amount by the strategy.
+     *
      * @return float
      */
     public function calculate()

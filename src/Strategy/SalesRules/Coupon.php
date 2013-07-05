@@ -20,6 +20,7 @@ class Coupon
     
     /**
      * class constructor
+     *
      * @param array $data
      */
     public function __construct($data = array())
@@ -33,6 +34,7 @@ class Coupon
 
     /**
      * sets coupon  amount
+     *
      * @param float $amount
      * @return Coupon
      */
@@ -44,6 +46,7 @@ class Coupon
     
     /**
      * sets coupon type
+     *
      * @param integer $type
      * @return Coupon
      */
@@ -55,6 +58,7 @@ class Coupon
     
     /**
      * sets coupon code.
+     *
      * @param string $code
      * @return Coupon
      */
@@ -66,6 +70,7 @@ class Coupon
     
     /**
      * returns coupon amount.
+     *
      * @return float
      */
     public function getAmount()
@@ -75,6 +80,7 @@ class Coupon
     
     /**
      * returns coupon type.
+     *
      * @return integer
      */
     public function getType()
@@ -84,6 +90,7 @@ class Coupon
     
     /**
      * returns coupon code.
+     *
      * @return string
      */
     public function getCode()

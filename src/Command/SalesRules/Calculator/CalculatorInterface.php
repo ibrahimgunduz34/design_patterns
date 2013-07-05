@@ -5,6 +5,7 @@ interface CalculatorInterface
 {
     /**
      * calculates discount amount.
+     *
      * @return float
      */
     public function calculate();

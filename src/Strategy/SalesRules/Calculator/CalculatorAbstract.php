@@ -14,6 +14,8 @@ abstract class CalculatorAbstract
     protected $_discountAmount;
     
     /**
+     * class constructor
+     *
      * @param float $orderTotal
      * @param float $discountAmount
      */

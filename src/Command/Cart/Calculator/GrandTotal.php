@@ -13,7 +13,8 @@ class GrandTotal extends CalculatorAbstract implements CalculatorInterface
     public function recalculate()
     {
         $order      = $this->_order;
-        $grandTotal = ($order->getNetTotal() - $order->getDiscountAmount()) + $order->getTaxAmount();
+        $grandTotal = ($order->getNetTotal() - $order->getDiscountAmount()) + 
+                        $order->getTaxAmount();
         $order->setGrandTotal($grandTotal);
         return $order;
     }
