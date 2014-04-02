@@ -1,7 +1,7 @@
 # Strategy Design Pattern
 Strateji tasarım deseni, bir işlemin birden fazla yolla yapılması gerektiği durumlarda kullanılır. 
 
-Örnek kod, bir elektronik ticaret sitesindeki kupon hesaplama işleminin strateji paterni ile nasıl 
+Örnek kod, bir elektronik ticaret sitesindeki kupon hesaplama işleminin strateji patterni ile nasıl 
 gerçekleştiğini gösterir. 
 
 ## Örnek ile ilgili açıklama:
