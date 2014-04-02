@@ -1,8 +1,8 @@
 # Observer Design Pattern
-Observer tasarım deseni, sistemedki nesnelerden birinde bir degisiklik oldugunda gozlemci olarak atanan siniflara
+Observer tasarım deseni, sistemdeki nesnelerden birinde bir degisiklik olduğunda gozlemci olarak atanan sınıflara
 durumun bildirilmesi gerektiği hallerde kullanılır.
 
-Örnek kod, bir elektronik ticaret sistesindeki ödeme sisteminde gelen ve gidek isteklerin loglanmasi ile ilgili
+Örnek kod, bir elektronik ticaret sistemindeki ödeme sisteminde gelen ve giden isteklerin loglanması ile ilgili
 işlemleri içerir.
 
 
